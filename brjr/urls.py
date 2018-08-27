@@ -4,5 +4,6 @@ from brjr import views
 
 urlpatterns = [
     url(r'^$', views.index, name='home'),
+    url(r'^birthdays$', views.birthday_data, name='not_home'),
 
 ]
