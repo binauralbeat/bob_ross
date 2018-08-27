@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load staticfiles %}
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is the Home Page</h1>
+    {% lorem 3 p %}
+
+    <button id="js-clicker">Click It!!</button>
+
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
